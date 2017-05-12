@@ -111,7 +111,7 @@
     display_math: 'DisplayMath'
   };
 
-  return function (options) {
+  return function (md, options) {
     var defaults = {
       beforeMath: '',
       afterMath: '',
@@ -122,7 +122,6 @@
     };
     options = extend(options || {}, defaults);
 
-    return function (md) {
       md.inline.ruler.before('escape', 'math', math);
       md.inline.ruler.push('texMath', texMath);
 
@@ -133,6 +132,5 @@
           return before + escapeHtml(tokens[idx].content) + after;
         };
       });
-    };
-  };
+  }
 });
