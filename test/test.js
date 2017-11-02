@@ -5,7 +5,7 @@ var md = markdownIt()
 var markdownitMathjax = require('..')
 md.use(markdownitMathjax())
 
-describe('Tex in-line math', function () {
+describe('TeX in-line math', function () {
   it('should work properly', function () {
     md.render('$1 *2* 3$').should.eql('<p>\\(1 *2* 3\\)</p>\n')
   })
@@ -20,7 +20,7 @@ describe('Tex in-line math', function () {
   })
 })
 
-describe('Tex displayed math', function () {
+describe('TeX displayed math', function () {
   it('should work properly', function () {
     md.render('$$1 *2* 3$$').should.eql('<p>\\[1 *2* 3\\]</p>\n')
   })
