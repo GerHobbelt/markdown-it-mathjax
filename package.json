@@ -1,7 +1,7 @@
 {
   "name": "markdown-it-mathjax",
   "version": "2.0.0",
-  "description": "",
+  "description": "Markdown-it plugin to bypass LaTeX math for mathjax processing",
   "main": "markdown-it-mathjax.js",
   "scripts": {
     "test": "gulp lint test"
@@ -11,18 +11,19 @@
     "url": "git+https://github.com/classeur/markdown-it-mathjax.git"
   },
   "author": "Benoit Schweblin",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/classeur/markdown-it-mathjax/issues"
   },
   "homepage": "https://github.com/classeur/markdown-it-mathjax#readme",
   "typings": "markdown-it-mathjax.d.ts",
   "devDependencies": {
-    "clgulp": "^1.1.0",
-    "eslint-config-classeur": "^1.0.1",
-    "gulp": "^3.9.0",
-    "gulp-spawn-mocha": "^2.2.1",
-    "markdown-it": "^5.0.2",
-    "should": "^8.0.1"
+    "clgulp": "1.1.4",
+    "eslint-config-classeur": "1.0.1",
+    "gulp": "3.9.1",
+    "gulp-spawn-mocha": "4.0.1",
+    "markdown-it": "8.4.0",
+    "mocha": "4.0.1",
+    "should": "13.1.3"
   }
 }
