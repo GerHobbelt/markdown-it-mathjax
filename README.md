@@ -1,7 +1,8 @@
 # markdown-it-mathjax
 
-[![Build Status](https://img.shields.io/travis/classeur/markdown-it-mathjax/master.svg?style=flat)](https://travis-ci.org/classeur/markdown-it-mathjax)
-[![NPM version](https://img.shields.io/npm/v/markdown-it-mathjax.svg?style=flat)](https://www.npmjs.org/package/markdown-it-mathjax)
+[![Build Status](https://img.shields.io/travis/GerHobbelt/markdown-it-mathjax/master.svg?style=flat)](https://travis-ci.org/GerHobbelt/markdown-it-mathjax)
+[![NPM version](https://img.shields.io/npm/v/@gerhobbelt/markdown-it-mathjax.svg?style=flat)](https://www.npmjs.org/package/@gerhobbelt/markdown-it-mathjax)
+[![Coverage Status](https://img.shields.io/coveralls/GerHobbelt/markdown-it-mathjax/master.svg?style=flat)](https://coveralls.io/r/GerHobbelt/markdown-it-mathjax?branch=master)
 
 > [Markdown-it](https://github.com/markdown-it/markdown-it) plugin to bypass LaTeX math for mathjax processing.
 
@@ -31,14 +32,14 @@ And sections
 ## Install
 
 ```bash
-npm install markdown-it-mathjax --save
+npm install @gerhobbelt/markdown-it-mathjax --save
 ```
 
 ## Use
 
 ```js
-var md = require('markdown-it')()
-            .use(require('markdown-it-mathjax')());
+var md = require('@gerhobbelt/markdown-it')()
+            .use(require('@gerhobbelt/markdown-it-mathjax')());
 
 md.render('$1 *2* 3$') // => '<p>\(1 *2* 3\)</p>'
 ```
@@ -49,4 +50,4 @@ package system, module will add itself globally as `window.markdownitMathjax`.
 
 ## License
 
-[MIT](https://github.com/classeur/markdown-it-mathjax/blob/master/LICENSE)
+[MIT](https://github.com/GerHobbelt/markdown-it-mathjax/blob/master/LICENSE)
