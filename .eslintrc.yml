@@ -3,6 +3,9 @@ env:
   browser:  false
   es6:      false
 
+parserOptions:
+  impliedStrict: true
+
 rules:
   accessor-pairs:         2
   array-bracket-spacing:  [ 2, "always", { "singleValue": true, "objectsInArrays": true, "arraysInArrays": true } ]
@@ -136,7 +139,8 @@ rules:
   space-unary-ops:        2
   # Postponed
   #spaced-comment:         [ 1, always, { exceptions: [ '/', '=' ] } ]
-  strict:                 [ 2, global ]
+  strict:                 [ 2, never ]
+  # ^ we assume a modern environment which is 'impliedStrict' by default, without the use of "use strict" anywhere in the code.
   quotes:                 [ 2, single, avoid-escape ]
   quote-props:            [ 1, 'as-needed', { "keywords": true } ]
   radix:                  2
