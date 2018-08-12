@@ -1,6 +1,6 @@
 {
   "name": "@gerhobbelt/markdown-it-mathjax",
-  "version": "2.0.1-2",
+  "version": "2.0.1-3",
   "description": "Markdown-it plugin to bypass LaTeX math for mathjax processing",
   "main": "markdown-it-mathjax.js",
   "repository": {
