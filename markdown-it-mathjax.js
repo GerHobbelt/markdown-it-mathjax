@@ -57,7 +57,9 @@
         // 3 markers are too much
         return false;
       }
-    } else if (afterStartMarker === 0x20 /* space */ || afterStartMarker === 0x09 /* \t */ || afterStartMarker === 0x0a /* \n */) {
+    } else if (afterStartMarker === 0x20 /* space */ ||
+               afterStartMarker === 0x09 /* \t */ ||
+               afterStartMarker === 0x0a /* \n */) {
       // Skip if opening $ is succeeded by a space character
       return false;
     }
