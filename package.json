@@ -22,11 +22,12 @@
   "author": "aetf@unlimitedcodeworks.xyz",
   "license": "MIT",
   "dependencies": {
-    "katex": "^0.6.0"
+    "katex": "^0.10.0"
   },
   "devDependencies": {
-    "markdown-it": "^6.0.0",
+    "markdown-it": "^8.4.2",
     "markdown-it-testgen": "^0.1.4",
-    "tape": "^4.5.1"
+    "tape": "^4.5.1",
+    "watchify": "^3.11.0"
   }
 }
