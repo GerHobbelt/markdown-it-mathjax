@@ -9,7 +9,7 @@ Add Math to your Markdown
 Need convincing?
 
 * Check out the comparative benchmark: [KaTeX vs MathJax](https://jsperf.com/katex-vs-mathjax/42)
-* Try it in your browser: [markdown-it-katex demo](http://waylonflinn.github.io/markdown-it-katex/)
+* Try it in your browser: [markdown-it-katex demo](http://aetf.github.io/markdown-it-katex/)
 
 ## Usage
 
